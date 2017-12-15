@@ -1,0 +1,5 @@
+osrm-extract los-angeles_california.osm.pbf -p profiles/car.lua
+osrm-contract los-angeles_california.osrm
+osrm-routed los-angeles_california.osrm
+osrm-routed los-angeles_california.osrm
+

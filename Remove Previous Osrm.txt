@@ -1,0 +1,58 @@
+cd /
+cd usr
+cd local
+cd bin
+sudo rm osrm-components
+cd ..
+cd include
+rm -R osrm
+sudo rm -R osrm
+cd ..
+cd bin
+sudo rm osrm-extract
+sudo rm osrm-parition
+sudo rm osrm-partition
+Sudo rm osrm-customize
+Sudo rm osrm-contract
+Sudo rm osrm-datastore
+Sudo rm osrm-routed
+sudo rm osrm-partition
+sudo rm osrm-customize
+sudo rm osrm-contract
+sudo rm osrm-datastore
+sudo rm osrm-routed
+cd ..
+cd lin
+sudo rm /usr/local/lib/libosrm.a
+sudo rm /usr/local/lib/libosrm_extract.a
+sudo rm /usr/local/lib/libosrm_partition.a
+sudo rm /usr/local/lib/libosrm_customize.a
+sudo rm /usr/local/lib/libosrm_update.a
+sudo rm /usr/local/lib/libosrm_contract.a
+sudo rm /usr/local/lib/libosrm_store.a
+sudo rm /usr/local/share/osrm/profiles
+sudo rm /usr/local/share/osrm/profiles/bicycle.lua
+sudo rm /usr/local/share/osrm/profiles/debug_example.lua
+sudo rm /usr/local/share/osrm/profiles/rasterbotinterp.lua
+sudo rm /usr/local/share/osrm/profiles/examples
+sudo rm /usr/local/share/osrm/profiles/examples/postgis.lua
+sudo rm /usr/local/share/osrm/profiles/foot.lua
+sudo rm /usr/local/share/osrm/profiles/testbot.lua
+sudo rm  /usr/local/share/osrm/profiles/turnbot.lua
+sudo rm /usr/local/share/osrm/profiles/car.lua
+sudo rm /usr/local/share/osrm/profiles/lib
+sudo rm /usr/local/share/osrm/profiles/lib/pprint.lua
+sudo rm /usr/local/share/osrm/profiles/lib/relations.lua
+sudo rm /usr/local/share/osrm/profiles/lib/destination.lua
+sudo rm /usr/local/share/osrm/profiles/lib/utils.lua
+sudo rm /usr/local/share/osrm/profiles/lib/sequence.lua
+sudo rm /usr/local/share/osrm/profiles/lib/set.lua
+sudo rm /usr/local/share/osrm/profiles/lib/access.lua
+sudo rm /usr/local/share/osrm/profiles/lib/profile_debugger.lua
+sudo rm /usr/local/share/osrm/profiles/lib/guidance.lua
+sudo rm /usr/local/share/osrm/profiles/lib/way_handlers.lua
+sudo rm /usr/local/share/osrm/profiles/lib/maxspeed.lua
+sudo rm /usr/local/share/osrm/profiles/lib/tags.lua
+sudo rm /usr/local/share/osrm/profiles/test.lua
+sudo rm /usr/local/share/osrm/profiles/rasterbot.lua
+sudo rm /usr/local/lib/pkgconfig/libosrm.pc

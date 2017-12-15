@@ -1,0 +1,6 @@
+@Hugbro : Thanks for trying it out. Maybe my last post was a bit confusing.
+
+For the 5.2.7 based stable version: API-Version is 1, the cmake flag is not needed (distances are not optional and always active), and the name of the query parameter is "output_components". An example for a valid query is this: http://localhost:5000/table/v1/driving/77.0697,28.499;77.0497,28.459;77.0397,28.469;77.0797,28.519;77.0997,28.559?output_components=distances;durations
+
+For the version from this PR (unstable, based on master): API-Version is 2, the cmake flag "-DPAYLOAD_TYPE = DurationsAndDistances" is required, as distances are disabledby default, and the quiery parametr is "output_fields". An example for a valid query is this: http://localhost:5000/table/v2/driving/77.0697,28.499;77.0497,28.459;77.0397,28.469;77.0797,28.519;77.0997,28.559?output_fields=distances;durations
+Note that the PR version is to be considered unstable, the API and cmake flags might change in the future if requested by the devs
